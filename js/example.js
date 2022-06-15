@@ -42,4 +42,6 @@ var heading = document.getElementsByTagName('h2')[0];
 var headingText = heading.innerHTML;
 // then we add the number of items to the tag inside span
 heading.innerHTML = headingText +  "<span>" + Listitem.length + "</span>";
+
+
                                            
